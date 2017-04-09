@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/gray_10">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lat="
+            android:textSize="17sp"
+            android:layout_gravity="left"
+            android:id="@+id/notifLat"
+            android:textColor="@color/gray_70"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lng="
+            android:textSize="17sp"
+            android:id="@+id/notifLng"
+            android:textColor="@color/gray_70"
+            android:layout_gravity="left"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="8dp"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_transparent_50"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:text="dismiss"
+            android:id="@+id/dismiss"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/gray_70"
+            android:background="@color/full_transparent"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:text="open"
+            android:id="@+id/open"
+            android:textColor="@color/gray_70"
+            android:layout_marginRight="110dp"
+            android:background="@color/full_transparent"
+            />
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

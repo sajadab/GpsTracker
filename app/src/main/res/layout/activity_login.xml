@@ -1,6 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
-</LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/truck"
+        android:scaleType="fitXY"
+        android:alpha=".3"
+        android:background="@color/login_background"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/login_background_layer">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appTitle"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:id="@+id/title"
+            android:layout_marginBottom="80dp"
+            android:transitionName="@string/title_transitionName"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:hint="@string/username"
+            android:transitionName="@string/username_transitionName"
+            android:id="@+id/username"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:hint="@string/password"
+            android:id="@+id/password"
+            android:transitionName="@string/password_transitionName"
+            android:inputType="textPassword"
+            android:layout_marginTop="45dp"/>
+
+        <com.rey.material.widget.Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/login_btn"
+            android:id="@+id/login"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            app:rd_maskType="rectangle"
+            app:rd_enable="true"
+            android:transitionName="@string/button_transitionName"
+            app:rd_delayClick="untilRelease"
+            app:rd_rippleColor="@color/button_ripple_color"/>
+
+        <com.rey.material.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@color/full_transparent"
+            android:text="@string/signUpAsk"
+            android:id="@+id/register"
+            app:rd_enable="true"
+            app:rd_delayClick="untilRelease"
+            app:rd_rippleColor="@color/button_ripple_color"
+            app:rd_cornerRadius="8dp"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="145dp"/>
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

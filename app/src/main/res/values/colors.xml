@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#ef5350</color>
+    <color name="colorPrimaryDark">#e53935</color>
     <color name="colorAccent">#FF4081</color>
+
+
+    //// custom colors
+    <color name="full_transparent">#00ffffff</color>
+    <color name="login_background">#8bff1744</color>
+    <color name="login_background_layer">#96ff5252</color>
+    <color name="white">#fff</color>
+    <color name="login_btn">#ef5350</color>
+    <color name="status_color">#e53935</color>
+    <color name="toolbar_color">#ef5350</color>
+    <color name="button_ripple_color">#62ffffff</color>
+
+
+    //////gray///////////////
+    <color name="gray_5">#f5f5f5</color>
+    <color name="gray_8">#eeeeee</color>
+    <color name="gray_10">#e6e6e6</color>
+    <color name="gray_20">#cdcdcd</color>
+    <color name="gray_30">#b4b4b4</color>
+    <color name="gray_40">#9b9b9b</color>
+    <color name="gray_50">#828282</color>
+    <color name="gray_60">#696969</color>
+    <color name="gray_70">#505050</color>
+    <color name="gray_80">#373737</color>
+    <color name="gray_90">#1e1e1e</color>
+
+    /////transparent color///////////////
+    <color name="black_transparent_5">#0f000000</color>
+    <color name="black_transparent_10">#19000000</color>
+    <color name="black_transparent_15">#26000000</color>
+    <color name="black_transparent_20">#32000000</color>
+    <color name="black_transparent_30">#4b000000</color>
+    <color name="black_transparent_40">#64000000</color>
+    <color name="black_transparent_50">#7d000000</color>
+    <color name="black_transparent_60">#96000000</color>
+    <color name="black_transparent_70">#af000000</color>
+    <color name="black_transparent_80">#c8000000</color>
+    <color name="black_transparent_90">#e1000000</color>
+
+    <color name="white_transparent_10">#19ffffff</color>
+    <color name="white_transparent_20">#32ffffff</color>
+    <color name="white_transparent_30">#4bffffff</color>
+    <color name="white_transparent_40">#64ffffff</color>
+    <color name="white_transparent_50">#7dffffff</color>
+    <color name="white_transparent_60">#96ffffff</color>
+    <color name="white_transparent_70">#afffffff</color>
+    <color name="white_transparent_80">#c8ffffff</color>
+    <color name="white_transparent_90">#e1ffffff</color>
+
+
+    <color name="gray_transparent_90">#e19e9e9e</color>
+    <color name="gray_transparent_80">#c89e9e9e</color>
+    <color name="gray_transparent_70">#af9e9e9e</color>
+    <color name="gray_transparent_60">#969e9e9e</color>
+    <color name="gray_transparent_50">#7d9e9e9e</color>
+    <color name="gray_transparent_40">#649e9e9e</color>
+    <color name="gray_transparent_30">#4b9e9e9e</color>
+    <color name="gray_transparent_20">#329e9e9e</color>
+    <color name="gray_transparent_10">#199e9e9e</color>
+
+
+    /////////////////
+
+
 </resources>

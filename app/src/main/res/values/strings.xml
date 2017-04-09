@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">GpsTracker</string>
     <string name="title_activity_maps">Map</string>
+    <string name="appTitle">Gps Tracker</string>
+    <string name="username">Username</string>
+    <string name="username_transitionName">user</string>
+    <string name="password">Password</string>
+    <string name="password_transitionName">pass</string>
+    <string name="login">login</string>
+    <string name="button_transitionName">btn</string>
+    <string name="signUpAsk">Don\'t have an account? Sign up</string>
+    <string name="title_transitionName">title</string>
+    <string name="firstName">First_name</string>
+    <string name="lastName">Last_name</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="register">register</string>
+    <string name="logOut">Log Out</string>
+    <string name="ticker_string">change position</string>
 </resources>
